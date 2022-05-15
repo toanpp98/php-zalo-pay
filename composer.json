@@ -1,0 +1,20 @@
+{
+    "name": "toanpp98/php-zalo-pay",
+    "description": "PHP Zalo Pay integration.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ZaloPay\\": "src/ZaloPay/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Toan Pham Phu",
+            "email": "phamphutoan98@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
