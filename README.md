@@ -9,6 +9,12 @@ PHP Zalo Pay integration.
 - [ ] Payment
 - [x] Disbursement
 
+## Install
+
+```shell
+composer require toanppp/php-zalo-pay
+```
+
 ## Methods
 
 ### ZaloPay :: __construct ( `array` params, `string` env )
