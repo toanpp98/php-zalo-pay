@@ -22,7 +22,7 @@ composer require toanppp/php-zalo-pay
 Create Zalo Pay service instance
 
 - `param` must contain `appID`, `paymentID`, `hMacKey`, `privateKey`
-- `env`: `ZaloPay::ENV_PRODUCTION = 1` | `ZaloPay::ENV_SANDBOX` | `ZaloPay::ENV_SANDBOX_QC`
+- `env`: `ZaloPay::ENV_PRODUCTION` | `ZaloPay::ENV_SANDBOX` | `ZaloPay::ENV_SANDBOX_QC`
 
 ```php
 $params = [
